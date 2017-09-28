@@ -1,0 +1,22 @@
+{
+    "development": {
+      "jwt": {
+        "iss": "localhost",
+        "secret": "DEV_fhsklhdskjfdshfjkldshfkjdshfjkdshkjf",
+        "days": 7
+      },
+      "database": {
+      }
+    },
+    "production": {
+      "jwt": {
+        "iss": "localhost",
+        "secret": "PROD_fhsklhdskjfdshfjkldshfkjdshfjkdshkjf",
+        "days": 7
+      },
+      "database": {
+
+      }
+    }
+  }
+  
